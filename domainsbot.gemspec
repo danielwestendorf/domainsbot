@@ -1,15 +1,14 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'domainsbot/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "domainsbot"
-  spec.version       = Domainsbot::VERSION
+  spec.version       = "0.0.1"
   spec.authors       = ["Daniel Westendorf"]
   spec.email         = ["daniel@prowestech.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = %q{Simple ruby client for domainsbot.com's api}
+  spec.description   = %q{Simple ruby client for domainsbot.com's api}
   spec.homepage      = ""
   spec.license       = "MIT"
 
