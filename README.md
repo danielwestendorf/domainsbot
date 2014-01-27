@@ -1,6 +1,6 @@
 # Domainsbot
 
-TODO: Write a gem description
+Simple Ruby API for http://domainsbot.com
 
 ## Installation
 
@@ -18,7 +18,12 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+    require 'domainsbot'
+
+    Domainsbot.api_key = 'MY_API_KEY'
+    Domainsbot.suggest(q: 'my-fancy-domain-name.com')
+
+Suggest will add all the options passed to it as query params in the request
 
 ## Contributing
 
